@@ -15,7 +15,7 @@ D:/It/peraject/Spaceshooter2D/SpaceShooterGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54952
+57811
 Successfully changed project path to: D:/It/peraject/Spaceshooter2D/SpaceShooterGame
 D:/It/peraject/Spaceshooter2D/SpaceShooterGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/It/peraject/Spaceshooter2D/SpaceShooterGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7120] Host "[IP] 192.168.1.50 [Port] 0 [Flags] 2 [Guid] 1413979083 [EditorId] 1413979083 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RGHGCT1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13264] Host "[IP] 192.168.1.50 [Port] 0 [Flags] 2 [Guid] 3538869916 [EditorId] 3538869916 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RGHGCT1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7120] Host "[IP] 192.168.1.50 [Port] 0 [Flags] 2 [Guid] 1413979083 [EditorId] 1413979083 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RGHGCT1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13264] Host "[IP] 192.168.1.50 [Port] 0 [Flags] 2 [Guid] 3538869916 [EditorId] 3538869916 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RGHGCT1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 97.71 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 94.96 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.27f1 (ca3ffb99bcc6)
 [Subsystems] Discovering subsystems at path E:/Program Files (x86)/unity/2021.3.27f1/Editor/Data/Resources/UnitySubsystems
@@ -67,89 +67,89 @@ Initialize mono
 Mono path[0] = 'E:/Program Files (x86)/unity/2021.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Program Files (x86)/unity/2021.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Program Files (x86)/unity/2021.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Program Files (x86)/unity/2021.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003273 seconds.
+Registered in 0.004065 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.38 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 94.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.681 seconds
+- Completed reload, in  0.703 seconds
 Domain Reload Profiling:
-	ReloadAssembly (682ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (704ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (456ms)
-			LoadAssemblies (129ms)
+		EndReloadAssembly (476ms)
+			LoadAssemblies (130ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (108ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (276ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (302ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (88ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (94ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (133ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005162 seconds.
+Registered in 0.005607 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\It\peraject\Spaceshooter2D\SpaceShooterGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\It\peraject\Spaceshooter2D\SpaceShooterGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 87.30 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 89.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.606 seconds
+- Completed reload, in  1.117 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3607ms)
-		BeginReloadAssembly (161ms)
+	ReloadAssembly (1118ms)
+		BeginReloadAssembly (156ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (3346ms)
-			LoadAssemblies (2285ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (861ms)
+			LoadAssemblies (127ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
+			SetupTypeCache (254ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (775ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (436ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (317ms)
-				ProcessInitializeOnLoadMethodAttributes (276ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3735 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (46.6 KB). Loaded Objects now: 4194.
-Memory consumption went from 142.6 MB to 142.6 MB.
-Total: 3.077700 ms (FindLiveObjects: 0.287500 ms CreateObjectMapping: 0.229300 ms MarkObjects: 2.477200 ms  DeleteObjects: 0.082600 ms)
+Unloading 35 unused Assets / (46.7 KB). Loaded Objects now: 4194.
+Memory consumption went from 142.6 MB to 142.5 MB.
+Total: 3.103200 ms (FindLiveObjects: 0.270900 ms CreateObjectMapping: 0.195500 ms MarkObjects: 2.550300 ms  DeleteObjects: 0.085700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,55 +163,169 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 35147.518763 seconds.
-  path: Assets/scripts/Controller/ShipController.cs
-  artifactKey: Guid(e1522087f37c9a5448647d156cd8fd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/Controller/ShipController.cs using Guid(e1522087f37c9a5448647d156cd8fd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f4663fe21da60ec1dc546e544462ff') in 0.238406 seconds 
+  Time since last request: 35677.757395 seconds.
+  path: Assets/sprites/Weapons/rocket_bx.png
+  artifactKey: Guid(b2daf72a018e4b44b82564fdc8b0b1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/rocket_bx.png using Guid(b2daf72a018e4b44b82564fdc8b0b1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2b9b64939ed60eb37e67f787420299') in 0.140718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/Weapons/shield_frames.png
+  artifactKey: Guid(45f3815392c04b04cae4c2f0abc43d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/shield_frames.png using Guid(45f3815392c04b04cae4c2f0abc43d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fbc6f497c5ae7de7a628345b8547b6') in 0.051558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/Weapons/cluster_bomb_single_cluster.png
+  artifactKey: Guid(edfc8b495024a584898f6d4e527a51e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/cluster_bomb_single_cluster.png using Guid(edfc8b495024a584898f6d4e527a51e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5625dd49de7b7ef94be922e6e868d113') in 0.015422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/Weapons/rocket_flame_animation.png
+  artifactKey: Guid(d493ae989575dd449a1654ad42f441ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/rocket_flame_animation.png using Guid(d493ae989575dd449a1654ad42f441ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b118eedf773974e32373b122c62fe6') in 0.019256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/sprites/Weapons/bullet_short_single.png
+  artifactKey: Guid(3a7e36498d89b42488cfbb9672ede079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/bullet_short_single.png using Guid(3a7e36498d89b42488cfbb9672ede079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba07ebbb58c2eba16e7818d0baeccee') in 0.018561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sprites/Weapons/cluster_bomb.png
+  artifactKey: Guid(ddca4dd4d47ece14a8ebaf74d2243624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/cluster_bomb.png using Guid(ddca4dd4d47ece14a8ebaf74d2243624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c90ad44059ccdb7486f571227da4975') in 0.017497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Weapons/bullet_long_single.png
+  artifactKey: Guid(35e54e9429c05d94783f46bdc29d8995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/bullet_long_single.png using Guid(35e54e9429c05d94783f46bdc29d8995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0328d4c9302273e6a7df63664dd182b2') in 0.014594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sprites/Weapons/ray_tiled.png
+  artifactKey: Guid(ee4a9ae4d4010ff42974e56c46280297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/ray_tiled.png using Guid(ee4a9ae4d4010ff42974e56c46280297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a6d3e8c63e3ead93f4dd58671e3633') in 0.014964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/sprites/Weapons/bullet_blaster_small.png
+  artifactKey: Guid(2d960c5f5443c7e48addef56eb24f0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/bullet_blaster_small.png using Guid(2d960c5f5443c7e48addef56eb24f0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1438888648d6896e34106d10eb9cb2') in 0.015342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Weapons/rocket_dsx.png
+  artifactKey: Guid(819162cade1f0d84c84c22d1e0914598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/rocket_dsx.png using Guid(819162cade1f0d84c84c22d1e0914598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03dff886d71892951b24624387eb807') in 0.021969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Weapons/bullet_long.png
+  artifactKey: Guid(91409b41523b5eb44a32f2caf11ce7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/bullet_long.png using Guid(91409b41523b5eb44a32f2caf11ce7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2ac60047e962cfe2cb0037eb11292c') in 0.016574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/sprites/Weapons/rocket_bx_single.png
+  artifactKey: Guid(9fbcdf9bb5ef29b49a87fe89900b9eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/rocket_bx_single.png using Guid(9fbcdf9bb5ef29b49a87fe89900b9eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454f7f62ab31b6ddc4d90f4df13f3781') in 0.046668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/sprites/Weapons/cluster_bomb_single.png
+  artifactKey: Guid(8321ac2fc22280144be756f681fc406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/cluster_bomb_single.png using Guid(8321ac2fc22280144be756f681fc406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7308322b899a43cf6826242061a31ee6') in 0.027838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/Weapons/rocket_dsx_single.png
+  artifactKey: Guid(d663d65be9815ac44bf10fb0820f0d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/rocket_dsx_single.png using Guid(d663d65be9815ac44bf10fb0820f0d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe77a84678a11ba75fba5fdcf8a4563') in 0.014411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/Weapons/ray_start.png
+  artifactKey: Guid(965e5ce617581844ba0d9295d8086343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/ray_start.png using Guid(965e5ce617581844ba0d9295d8086343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc12097f18bee42be3995cde1870dca') in 0.014862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/Weapons
+  artifactKey: Guid(b3839d2b192bbac4a917917f24cece4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons using Guid(b3839d2b192bbac4a917917f24cece4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe4f1fd413939fa8e27868fe3736fa1') in 0.006959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/Weapons/bullet_blaster_small_single.png
+  artifactKey: Guid(5c119e048e43a4d4c959a643446db751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/bullet_blaster_small_single.png using Guid(5c119e048e43a4d4c959a643446db751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1631ad513bc321b243749f3fa8329a85') in 0.013173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sprites/Weapons/bullet_blaster_big.png
+  artifactKey: Guid(af9588961f05b4e46b28ef1f93fd8be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/bullet_blaster_big.png using Guid(af9588961f05b4e46b28ef1f93fd8be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1f86de363c46b21e8a257cec8b958a') in 0.016860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/Weapons/bullet_short.png
+  artifactKey: Guid(b932bea57b92cae468032beac49c04e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/bullet_short.png using Guid(b932bea57b92cae468032beac49c04e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd494016a6c2bf53f08bd7558cfedc214') in 0.020743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sprites/Weapons/bullet_blaster_big_single.png
+  artifactKey: Guid(1c157f5a8999ae44b8bf5cf33a8cc649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/Weapons/bullet_blaster_big_single.png using Guid(1c157f5a8999ae44b8bf5cf33a8cc649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae180e5df6bb8d69517154844a0d4cfa') in 0.013599 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004824 seconds.
+Registered in 0.005606 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\It\peraject\Spaceshooter2D\SpaceShooterGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\It\peraject\Spaceshooter2D\SpaceShooterGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.953 seconds
+- Completed reload, in  1.009 seconds
 Domain Reload Profiling:
-	ReloadAssembly (954ms)
-		BeginReloadAssembly (174ms)
+	ReloadAssembly (1010ms)
+		BeginReloadAssembly (181ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (694ms)
-			LoadAssemblies (131ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (740ms)
+			LoadAssemblies (129ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (229ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (299ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (294ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (191ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (189ms)
 				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.87 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3724 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (22.0 KB). Loaded Objects now: 4197.
-Memory consumption went from 141.5 MB to 141.5 MB.
-Total: 3.756800 ms (FindLiveObjects: 0.300500 ms CreateObjectMapping: 0.214100 ms MarkObjects: 3.213100 ms  DeleteObjects: 0.027900 ms)
+Unloading 3725 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (21.9 KB). Loaded Objects now: 4245.
+Memory consumption went from 146.0 MB to 145.9 MB.
+Total: 3.194700 ms (FindLiveObjects: 0.258200 ms CreateObjectMapping: 0.181800 ms MarkObjects: 2.716400 ms  DeleteObjects: 0.037300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -223,3 +337,71 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 97.916742 seconds.
+  path: Assets/scripts/Controller/BulletController.cs
+  artifactKey: Guid(903b02e5e35d2bb45a01fb2bd437b171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Controller/BulletController.cs using Guid(903b02e5e35d2bb45a01fb2bd437b171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f421eb3e9dfdc541877ce6d16b79f3') in 0.016096 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005246 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\It\peraject\Spaceshooter2D\SpaceShooterGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\It\peraject\Spaceshooter2D\SpaceShooterGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Domain Reload Profiling:
+	ReloadAssembly (976ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (708ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3725 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (21.9 KB). Loaded Objects now: 4248.
+Memory consumption went from 146.0 MB to 145.9 MB.
+Total: 2.827800 ms (FindLiveObjects: 0.288800 ms CreateObjectMapping: 0.175300 ms MarkObjects: 2.338600 ms  DeleteObjects: 0.024500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 178.284592 seconds.
+  path: Assets/scripts/Controller/BulletController.cs
+  artifactKey: Guid(903b02e5e35d2bb45a01fb2bd437b171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Controller/BulletController.cs using Guid(903b02e5e35d2bb45a01fb2bd437b171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455008315f94cfbc3c02a8d31bc0d397') in 0.006296 seconds 

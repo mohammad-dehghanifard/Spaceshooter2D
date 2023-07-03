@@ -9,17 +9,13 @@ public class ShipController : MonoBehaviour
     public float Speed = 5f;
     #endregion
 
-    private void Start()
-    {
-        
-    }
-
-   private void Update()
+    #region Private Functions
+    private void Update()
     {
         // حرکت سفینه
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
-        transform.position += Speed * Time.deltaTime * new Vector3(x,y,0);
+        transform.position += Speed * Time.deltaTime * new Vector3(x, y, 0);
 
         // خارج نشدن سفینه از صفجه
         Vector3 vector3 = new Vector3(
@@ -28,4 +24,5 @@ public class ShipController : MonoBehaviour
          transform.position.z);
         transform.position = vector3;
     }
+    #endregion
 }
