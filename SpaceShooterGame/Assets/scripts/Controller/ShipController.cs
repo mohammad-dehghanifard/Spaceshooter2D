@@ -7,6 +7,7 @@ public class ShipController : MonoBehaviour
     #region PublicVaribles 
     [Range(5,100)]
     public float Speed = 5f;
+    public GameObject BulletObject,FirePlace;
     #endregion
 
     #region Private Functions
@@ -16,6 +17,12 @@ public class ShipController : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
         transform.position += Speed * Time.deltaTime * new Vector3(x, y, 0);
+
+        // شلیک تیر
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(BulletObject,FirePlace.transform.position,Quaternion.identity);
+        }
 
         // خارج نشدن سفینه از صفجه
         Vector3 vector3 = new Vector3(

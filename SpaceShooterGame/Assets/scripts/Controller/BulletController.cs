@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class BulletController : MonoBehaviour
 {
-    void Start()
+    #region PublicVaribles
+    [Range(5,30)]
+    public float BulletSpeed = 5f;
+    #endregion
+
+    #region PrivateFunctions
+    private void Start()
     {
-        
+
     }
 
-    void Update()
+    private void Update()
     {
-        
+        transform.Translate(Vector3.up * BulletSpeed * Time.deltaTime);
     }
+    #endregion
 }
