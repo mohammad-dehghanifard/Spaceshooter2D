@@ -14,7 +14,7 @@ public class AsteroidSwpaner : MonoBehaviour
 
 
     #region Private Functions
-    private void Start() => StartCoroutine(swpaneAsteroid());
+    private void Start() => StartCoroutine(SwpaneAsteroid());
     
 
     private void Update()
@@ -23,7 +23,7 @@ public class AsteroidSwpaner : MonoBehaviour
     }
 
     // این تابع به صورت رندوم شهاب سنگ در محور ایکس تولید میکنه
-    private IEnumerator swpaneAsteroid()
+    private IEnumerator SwpaneAsteroid()
     {
         yield return new WaitForSeconds(Random.Range(MainSwapaneTime, MaxSwapaneTime));
         // ایجاد رندوم روی محور ایکس ها
@@ -31,7 +31,7 @@ public class AsteroidSwpaner : MonoBehaviour
         pos.x = Random.Range(XAxisLimitToSwpane.x, XAxisLimitToSwpane.y);
         // ساخت شهاب سنگ
         Instantiate(AsteroidPref,pos, Quaternion.identity);
-        StartCoroutine(swpaneAsteroid());
+        StartCoroutine(SwpaneAsteroid());
     }
 
    
