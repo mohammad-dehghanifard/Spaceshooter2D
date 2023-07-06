@@ -8,6 +8,7 @@ public class BulletController : MonoBehaviour
     [Range(5,30)]
     public float BulletSpeed = 5f;
     public BulletDirection bulletDirection;
+    public GameObject ExplosionPrefab;
     #endregion
 
     #region Private Variable
@@ -28,6 +29,10 @@ public class BulletController : MonoBehaviour
     // برخورد تیر با سیار ها و نابودی سیاره
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
+        Vector2 collisionPoint = collision.ClosestPoint(transform.position); // => اولین نقطه ای که برخورد صورت بگیره رو برمیگردونه
+        Instantiate(ExplosionPrefab, collisionPoint, Quaternion.identity); // =>  ایجاد انیمیشن انفجار
+
         if (collision.CompareTag(EnemyTag)) {
             Destroy(obj: collision.gameObject);
             Destroy(obj: gameObject);
@@ -47,7 +52,6 @@ public class BulletController : MonoBehaviour
             Destroy(obj: gameObject);
         }
     }
-
     #endregion
 }
 
