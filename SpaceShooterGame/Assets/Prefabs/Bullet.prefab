@@ -100,6 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BulletSpeed: 15
+  bulletDirection: 0
 --- !u!50 &1514344951570464054
 Rigidbody2D:
   serializedVersion: 4
