@@ -5,8 +5,12 @@ using UnityEngine;
 public class EnemyShipController : MonoBehaviour
 {
     #region Public Vartiable
-    [Range(2,30)]
-    public float Vspeed = 5f,Hspeed = 5f;
+    [Range(2, 30)]
+    public float Vspeed = 5f, Hspeed = 5f;
+    [Range(0.5f,5f)]
+    public float FirstTimeFire, RepetitionFire;
+    public GameObject Bullet, FirePlace;
+
     #endregion
 
     #region Praivate Variable
@@ -18,6 +22,8 @@ public class EnemyShipController : MonoBehaviour
     {
         // تغیر جهت سفینه های دشمن
         InvokeRepeating("ChangeShipDirectio",1,0.2f);
+        // شلیک سفینه دشمن
+        InvokeRepeating("BulletFire",FirstTimeFire,RepetitionFire);
     }
 
    private void Update()
@@ -39,7 +45,10 @@ public class EnemyShipController : MonoBehaviour
         transform.position = pos;
     }
 
+    // تغییر موقعیت سفینه دشمن
     private void ChangeShipDirectio() => Direction = Random.Range(-1, 2); // => 0,1,-1
+    private void BulletFire() => Instantiate(Bullet,FirePlace.transform.position,Quaternion.identity);
+    
     
     #endregion
 

@@ -12,20 +12,15 @@ public class BulletController : MonoBehaviour
 
     #region Private Variable
     private readonly string EnemyTag = "Asteroid";
+    private readonly string PlayerTag = "Players";
+    private readonly string EnemyShipTag = "EnemyShip";
     private Vector3 BulletMove;
     #endregion
 
     #region PrivateFunctions
     private void Start()
     {
-        if (bulletDirection == BulletDirection.up)
-        {
-            BulletMove = Vector3.up;
-        }
-        else if (bulletDirection == BulletDirection.down)
-        {
-            BulletMove = Vector3.down;
-        }
+        BulletMove = bulletDirection == BulletDirection.down ? Vector3.down : Vector3.up ;
     }
 
     private void Update() => transform.Translate( BulletMove * BulletSpeed * Time.deltaTime);
@@ -34,6 +29,20 @@ public class BulletController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag(EnemyTag)) {
+            Destroy(obj: collision.gameObject);
+            Destroy(obj: gameObject);
+        }
+
+        // نابود شدن سفینه بازکین با تیر دشمن
+        if (bulletDirection == BulletDirection.down && collision.CompareTag(PlayerTag))
+        {
+            Destroy(obj: collision.gameObject);
+            Destroy(obj: gameObject);
+        }
+
+        // نابود شدن سفینه دشمن توسط تیر بازیکن
+        if (bulletDirection == BulletDirection.up && collision.CompareTag(EnemyShipTag))
+        {
             Destroy(obj: collision.gameObject);
             Destroy(obj: gameObject);
         }
