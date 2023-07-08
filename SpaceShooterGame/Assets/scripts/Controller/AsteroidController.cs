@@ -5,9 +5,9 @@ using UnityEngine;
 public class AsteroidController : MonoBehaviour
 {
     #region Public Variable
-    [Range(5,100)]
+    [Range(0,100)]
     public float Speed = 5, RotaionSpeed = 20;
-    [Range(1,5)]
+    [Range(1,6)]
     public int Health = 1;
     public GameObject Explosion; // بنظر میرسه انیمیشن انفجار خود سیاره باعث خطا تو بازی میشه
     #endregion
@@ -15,16 +15,27 @@ public class AsteroidController : MonoBehaviour
 
 
     #region Private Variable
-    private readonly string PlayerTag = "Players";
-    private readonly string PlayerBulletTag = "PlayerBullet";
+    private const string PlayerTag = "Players";
+    private const string PlayerBulletTag = "PlayerBullet";
+    private const string AnimationParamKey = "health";
+    private Animator anim;
     #endregion
 
     #region Private Functions
+
+    private void Awake()
+    {
+        anim = gameObject.GetComponent<Animator>();
+    }
+
     private void Update()
     {
         //  سقوط سیاره
         transform.position += Vector3.down * Speed * Time.deltaTime;
         transform.Rotate(Vector3.forward * RotaionSpeed * Time.deltaTime);
+
+        // تغییر انیمیشن
+        anim.SetInteger(AnimationParamKey,Health);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
