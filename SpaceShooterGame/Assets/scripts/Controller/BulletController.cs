@@ -9,6 +9,8 @@ public class BulletController : MonoBehaviour
     public float BulletSpeed = 5f;
     public BulletDirection bulletDirection;
     public GameObject ExplosionPrefab;
+    [Range(1,10)]
+    public int Power = 1;
     #endregion
 
     #region Private Variable
@@ -34,7 +36,7 @@ public class BulletController : MonoBehaviour
         Instantiate(ExplosionPrefab, collisionPoint, Quaternion.identity); // =>  ایجاد انیمیشن انفجار
 
         if (collision.CompareTag(EnemyTag)) {
-            Destroy(obj: collision.gameObject);
+            
             Destroy(obj: gameObject);
         }
 

@@ -167,9 +167,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 143b412c9904ea14aa77dec64954deda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AsteroidPref: {fileID: 3463501828437241127, guid: 81aa6313ef6b807499bc486efb3d04ac, type: 3}
+  AsteroidPref: {fileID: 8959102951958070706, guid: ef32f1b465a723e4f9e5d3f45fb394f8, type: 3}
   MainSwapaneTime: 0.5
-  MaxSwapaneTime: 2
+  MaxSwapaneTime: 3.52
   XAxisLimitToSwpane: {x: -9.52, y: 9.52}
 --- !u!1 &1250940096
 GameObject:
