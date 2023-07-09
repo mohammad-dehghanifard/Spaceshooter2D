@@ -9,6 +9,8 @@ TagManager:
   - enemy
   - EnemyShip
   - PlayerBullet
+  - Undefined
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX

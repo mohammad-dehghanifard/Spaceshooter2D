@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5161005538965353530}
   m_Layer: 0
   m_Name: EnemyBullet
-  m_TagString: Players
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,6 +101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BulletSpeed: 5
   bulletDirection: 1
+  ExplosionPrefab: {fileID: 4286082775604210889, guid: 05bc990a06c15fa44adb312644abd680, type: 3}
+  Power: 1
 --- !u!50 &5161005538965353533
 Rigidbody2D:
   serializedVersion: 4

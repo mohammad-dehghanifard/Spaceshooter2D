@@ -32,9 +32,7 @@ public class BulletController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
-        Vector2 collisionPoint = collision.ClosestPoint(transform.position); // => اولین نقطه ای که برخورد صورت بگیره رو برمیگردونه
-        Instantiate(ExplosionPrefab, collisionPoint, Quaternion.identity); // =>  ایجاد انیمیشن انفجار
-
+      
         if (collision.CompareTag(EnemyTag)) {
             
             Destroy(obj: gameObject);
@@ -43,6 +41,9 @@ public class BulletController : MonoBehaviour
         // نابود شدن سفینه بازکین با تیر دشمن
         if (bulletDirection == BulletDirection.down && collision.CompareTag(PlayerTag))
         {
+            Vector2 collisionPoint = collision.ClosestPoint(transform.position); // => اولین نقطه ای که برخورد صورت بگیره رو برمیگردونه
+            Instantiate(ExplosionPrefab, collisionPoint, Quaternion.identity); // =>  ایجاد انیمیشن انفجار
+
             Destroy(obj: collision.gameObject);
             Destroy(obj: gameObject);
         }

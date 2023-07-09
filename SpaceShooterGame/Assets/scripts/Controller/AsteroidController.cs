@@ -43,8 +43,8 @@ public class AsteroidController : MonoBehaviour
         // برخورد سیاره یا سیفنه بازکین
         if (collision.CompareTag(PlayerTag))
         {
-            Destroy(obj: collision.gameObject);
-            Destroy(obj: gameObject);
+            //Destroy(obj: collision.gameObject);
+            //Destroy(obj: gameObject);
         }
 
         if (collision.CompareTag(PlayerBulletTag))

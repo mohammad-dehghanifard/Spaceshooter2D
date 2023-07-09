@@ -10,7 +10,8 @@ public class EnemyShipController : MonoBehaviour
     [Range(0.5f,5f)]
     public float FirstTimeFire, RepetitionFire;
     public GameObject Bullet, FirePlace;
-
+    [Range(1,12)]
+    public int Health;
     #endregion
 
     #region Praivate Variable

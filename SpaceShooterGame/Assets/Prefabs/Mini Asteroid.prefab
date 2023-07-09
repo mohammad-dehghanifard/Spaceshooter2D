@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 5
   RotaionSpeed: 100
-  Health: 2
+  Health: 1
   Explosion: {fileID: 6658120580758356, guid: 675b1633b84f3934987a56a238e3779e, type: 3}
 --- !u!50 &5124529828271086437
 Rigidbody2D:
